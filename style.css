@@ -1,0 +1,22 @@
+@import url('aside.css');
+@import url('conteudo.css');
+
+:root {
+    --fundo-sidebar: #01080E;
+    --azul-escuro: #041832;
+    --azul-medio: #144480;
+    --azul-neon: #2BDEFD;
+    --play-hover: #2EBED7;
+    --cinza-cards: #C4C4C4   (20%);
+    --cinza: #C4C4C4;
+    --branco: #FFFFFF;
+    --gradient: #072041 #041833 #154580;
+    --fonte-principal: "Open Sans", sans-serif;
+}
+
+* {
+    color: var(--branco);
+    font-size: 16px;
+}
+
+

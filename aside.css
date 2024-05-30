@@ -1,0 +1,56 @@
+.sidebar {
+    display: grid;
+    grid-template-rows: 15% 25% auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--fundo-sidebar);
+    width: 228px;
+    font-family: var(--fonte-principal);
+}
+
+.sidebar__img {
+    padding: 2em 3em 2em 1.8em;
+    align-self: center;
+}
+
+.sidebar__lista01 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-self: center;
+    padding-left: 1.4em;
+}
+
+.sidebar__lista01 img {
+    width: 24px;
+    height: 24px;
+}
+
+.sidebar__lista02 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 2em 0 0 1.4em;
+}
+
+.sidebar__lista02 img {
+    width: 32px;
+    height: 32px;
+}
+
+.sidebar__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+
+
+
