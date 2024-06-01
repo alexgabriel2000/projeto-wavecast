@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WaveCast</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -12,45 +13,56 @@
 </head>
 <body>
 
-    <!-- BARRA LATERAL ESQUERDA -->
-
-    <aside class="sidebar">
-        <div class="sidebar__img">
-            <img src="assets/Logo e favicon/CastWave_logo.svg" alt="Logo do WaveCast">
-        </div>
-        <ul class="sidebar__lista01">
-            <li>
-                <a class="sidebar__link" class="teste" href="#"><img src="assets/Ícones/Svg/home_branco.svg" alt="Icone do Home">Home</a>
-            </li>
-            <li>
-                <a class="sidebar__link" href="#"><img src="assets/Ícones/Svg/search_branco.svg" alt="Icone de Busca">Busca</a>
-            </li>
-            <li>
-                <a class="sidebar__link" href="#"><img src="assets/Ícones/Svg/bookmark_branco.svg" alt="Icone da Biblioteca">Sua Biblioteca</a>
-            </li>
-        </ul>
-
-        <ul class="sidebar__lista02">
-            <li>
-                <h2>PLAYLISTS</h2>
-            </li>
-            <li>
-                <a class="sidebar__link" href="#"><img src="assets/Ícones/Svg/add_box_branco.svg" alt="Icone da Playlist">Criar Playlist</a>
-            </li>
-            <li>
-                <a class="sidebar__link" href="#"><img src="assets/Ícones/Svg/stars_branco.svg" alt="Icone de Podcast">Podcasts salvos</a>
-            </li>
-        </ul>
-    </aside>
-
-    <!-- CONTEÚDO PRINCÍPAL -->
-
     <main class="conteudo__principal">
-        
+
+        <!-- BARRA LATERAL ESQUERDA -->
+
+        <aside class="sidebar">
+            <img class="sidebar__img" src="assets/logo-wavecast.svg" alt="Logo da WaveCast">
+            <ul>
+                <li class="sidebar__entrada">
+                    <a class="sidebar__link" href="#"><img src="assets/icone-home.svg" alt="Icone do Home">Home</a>
+                    <a class="sidebar__link" href="#"><img src="assets/icone-busca.svg" alt="Icone de Busca">Busca</a>
+                    <a class="sidebar__link" href="#"><img src="assets/icone-biblioteca.svg" alt="Icone de Biblioteca">Sua Biblioteca</a>
+                </li>
+                <li class="sidebar__playlist">
+                    <h2 class="playlist-titulo">PLAYLISTS</h2>
+                    <a class="sidebar__link" href="#"><img src="assets/icone-playlist.svg" alt="Icone de Playlist">Criar Playlist</a>
+                    <a class="sidebar__link" href="#"><img src="assets/icone-podcast.svg" alt="Icone de podcasts">Podcasts salvos</a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- SEÇÃO TOCADOS RECENTE -->
+
+        <section class="secao__tocados">
+            <div class="tocados__button">
+                <a class="tocados__link" href="#"><img src="assets/Seta voltar.svg" alt="Icone da seta para voltar"></a>
+                <a class="tocados__link" href="#"><img src="assets/Seta avançar.svg" alt="Icone da seta para avançar"></a>
+            </div>
+
+            <h1 class="tocados__titulo">Tocados recentemente</h1>
+            <ul class="tocados__lista">
+                <li class="lista-conteudo">
+                    <img src="assets/img-hipsters.svg" alt="Imagem da musica hipsters">
+                    <p>Hipsters Fora de Controle</p>
+                    <img src="assets/linha-horizontal-branca.svg" alt="Imagem da linha horizontal">
+                    <img src="assets/botao-play-azul.png" alt="Icone de play azul">
+                </li>
+                <li class="lista-conteudo">
+                    <img src="assets/img-layers.svg" alt="Imagem da musica hipsters">
+                    <p>Hipsters Fora de Controle</p>
+                    <img src="assets/linha-horizontal-branca.svg" alt="Imagem da linha horizontal">
+                    <img src="assets/botao-play-azul.png" alt="Icone de play azul">
+                </li>
+                <li class="lista-conteudo">
+                    <img src="assets/img-scuba.svg" alt="Imagem da musica hipsters">
+                    <p>Hipsters Fora de Controle</p>
+                    <img src="assets/linha-horizontal-branca.svg" alt="Imagem da linha horizontal">
+                    <img src="assets/botao-play-azul.png" alt="Icone de play azul">
+                </li>
+            </ul>
+        </section>
     </main>
-
-    <footer>
-
-    </footer>
 </body>
 </html>

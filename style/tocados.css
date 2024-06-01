@@ -1,0 +1,35 @@
+.secao__tocados {
+    
+}
+
+.tocados__button {
+    display: flex;
+    gap: 24px;
+    padding: 1.5em 0 1.5em 2em;
+}
+
+.tocados__lista {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 1fr;
+    padding: 1.5em 2em 0 2em;
+    gap: 1.25em;
+}
+
+.tocados__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 2em;
+}
+
+.lista-conteudo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+
+
+
+
+

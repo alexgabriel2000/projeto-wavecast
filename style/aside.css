@@ -1,0 +1,35 @@
+.sidebar {
+    display: grid;
+    grid-template-columns: 220px;
+    grid-template-rows: repeat(3, auto) 1fr;
+    justify-content: flex-start;
+    justify-items: center;
+    height: 100vh;
+    background-color: var(--azul-void);
+}
+
+.sidebar__img {
+    padding: 2em 0 0 0;
+}
+
+.sidebar__entrada {
+    padding: 2em 0;
+}
+
+.sidebar__entrada, .sidebar__playlist {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 14px;
+}
+
+.playlist-titulo {
+    font-weight: 500;
+}
+
+.sidebar__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+}
