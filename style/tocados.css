@@ -1,3 +1,62 @@
+.secao__tocados {
+    
+}
+
+.secao__tocados-button {
+    display: flex;
+    gap: 24px;
+    padding: 2em 0 2em 2em;
+    background-color: transparent;
+    border: 0;
+}
+
+.tocados-titulo {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 0 1.5em 2em;
+}
+
+.tocados-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    gap: 1.25em;
+    padding: 0 2em 1.5em 2em;
+}
+
+.tocados-conteudo-lista {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 1em;
+    border-radius: 8px;
+    
+    align-items: center;
+    background-color: var(--cinza-cards);
+    grid-template-areas: 
+    "logo texto botao"
+    "logo linha botao";
+}
+
+.lista-logo {
+    grid-area: logo;
+}
+
+.lista-texto {
+    grid-area: texto;
+}
+
+.lista-linha {
+    grid-area: linha;
+}
+
+.lista-botao {
+    grid-area: botao;
+}
+
+
+
+
 
 
 
